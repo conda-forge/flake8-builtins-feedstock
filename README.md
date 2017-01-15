@@ -11,6 +11,18 @@ Summary: Check for python builtins being used as variables or parameters.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-builtins-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-builtins-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/flake8-builtins-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flake8-builtins-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flake8-builtins-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flake8-builtins-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-builtins/badges/version.svg)](https://anaconda.org/conda-forge/flake8-builtins)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-builtins/badges/downloads.svg)](https://anaconda.org/conda-forge/flake8-builtins)
+
 Installing flake8-builtins
 ==========================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-builtins-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-builtins-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flake8-builtins-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flake8-builtins-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flake8-builtins-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flake8-builtins-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-builtins/badges/version.svg)](https://anaconda.org/conda-forge/flake8-builtins)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-builtins/badges/downloads.svg)](https://anaconda.org/conda-forge/flake8-builtins)
 
 
 Updating flake8-builtins-feedstock
