@@ -1,6 +1,6 @@
 {% set name = "flake8-builtins" %}
-{% set version = "0.4" %}
-{% set sha256 = "55e26abbf398e600069882f41166de70372302baaf49985180d1531c47b9932a" %}
+{% set version = "1.0" %}
+{% set sha256 = "a2a67165db017d2563225124b76d44ad7deb20488e205ceb504eb1c6f646555a" %}
 
 package:
   name: {{ name|lower }}
@@ -12,6 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
