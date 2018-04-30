@@ -14,12 +14,15 @@ Summary: Check for python builtins being used as variables or parameters.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-builtins-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-builtins-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/flake8-builtins-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/flake8-builtins-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-builtins/badges/version.svg)](https://anaconda.org/conda-forge/flake8-builtins)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-builtins/badges/downloads.svg)](https://anaconda.org/conda-forge/flake8-builtins)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-flake8--builtins-green.svg)](https://anaconda.org/conda-forge/flake8-builtins) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/flake8-builtins.svg)](https://anaconda.org/conda-forge/flake8-builtins) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/flake8-builtins.svg)](https://anaconda.org/conda-forge/flake8-builtins) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/flake8-builtins.svg)](https://anaconda.org/conda-forge/flake8-builtins) |
 
 Installing flake8-builtins
 ==========================
