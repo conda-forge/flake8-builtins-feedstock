@@ -1,6 +1,6 @@
 {% set name = "flake8-builtins" %}
-{% set version = "1.4.1" %}
-{% set sha256 = "cd7b1b7fec4905386a3643b59f9ca8e305768da14a49a7efb31fe9364f33cd04" %}
+{% set version = "1.4.2" %}
+{% set sha256 = "c44415fb19162ef3737056e700d5b99d48c3612a533943b4e16419a5d3de3a64" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
