@@ -1,6 +1,6 @@
 {% set name = "flake8-builtins" %}
-{% set version = "1.4.2" %}
-{% set sha256 = "c44415fb19162ef3737056e700d5b99d48c3612a533943b4e16419a5d3de3a64" %}
+{% set version = "1.5.2" %}
+{% set sha256 = "fe7be13fe51bfb06bdae6096c6488e328c822c3aa080e24b91b77116a4fbb8b0" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
     - pip
@@ -27,14 +27,14 @@ requirements:
 
 test:
   commands:
-    - "flake8 --version | grep flake8_builtins:"
+    - 'flake8 --version | grep flake8_builtins:'
 
 about:
   home: https://github.com/gforcada/flake8-builtins
   license: GPL-2.0
   license_family: GPL2
   license_file: LICENSE
-  summary: 'Check for python builtins being used as variables or parameters.'
+  summary: Check for python builtins being used as variables or parameters.
   dev_url: https://github.com/gforcada/flake8-builtins
 
 extra:
