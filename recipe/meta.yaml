@@ -1,6 +1,6 @@
 {% set name = "flake8-builtins" %}
-{% set version = "1.5.3" %}
-{% set sha256 = "09998853b2405e98e61d2ff3027c47033adbdc17f9fe44ca58443d876eb00f3b" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "98833fa16139a75cd4913003492a9bd9a61c6f8ac146c3db12a2ebaf420dade3" %}
 
 package:
   name: {{ name|lower }}
