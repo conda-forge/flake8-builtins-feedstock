@@ -3,7 +3,7 @@ About flake8-builtins
 
 Home: https://github.com/gforcada/flake8-builtins
 
-Package license: GPL-2.0
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-builtins-feedstock/blob/main/LICENSE.txt)
 
