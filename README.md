@@ -1,11 +1,11 @@
-About flake8-builtins
-=====================
+About flake8-builtins-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-builtins-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/gforcada/flake8-builtins
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-builtins-feedstock/blob/main/LICENSE.txt)
 
 Summary: Check for python builtins being used as variables or parameters.
 
