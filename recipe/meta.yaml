@@ -1,5 +1,5 @@
 {% set name = "flake8-builtins" %}
-{% set version = "3.0.0" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: bab4d458de6b828634f789f84cb31aff2ab5f92cd37b4f3888ffa5e78cd9d373
+  sha256: 10d29d7a81ba6546a26461e83ce1936644764a678ff6337b97a894ebc4db07c1
 
 build:
   noarch: python
