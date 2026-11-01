@@ -1,5 +1,5 @@
 {% set name = "flake8-builtins" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,8 +8,8 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 10d29d7a81ba6546a26461e83ce1936644764a678ff6337b97a894ebc4db07c1
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: f0c4cee9028711349b7bf18e9a04282a613fd426e56af00bcd0c3bb61ae25481
 
 build:
   noarch: python
